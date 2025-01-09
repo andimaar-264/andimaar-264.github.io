@@ -1,53 +1,205 @@
 <!DOCTYPE html>
-<html>
-<title>tryout</title>
-<link rel="stylesheet" href="tryout.css">
-<body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Capstone HTML+CSS</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-    <div class="flex-container">
-        <div>Muhammad Andi Akbar Ramadhan</div>
-        <div>5025201264</div>
-    </div>
+  <body>
+    <!-- Title -->
+    <section id="title" class="gradient-background">
+      <div class="container col-xxl-8 px-4 pt-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 pt-5 pb-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img
+              src="./imgsvg/IMG_7796_crop.JPG"
+              class="d-block mx-lg-auto img-fluid rounded-circle"
+              alt="Bootstrap Themes"
+              height="200"
+              width="75%"
+              loading="lazy"
+            />
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+              Muhammad Andi Akbar Ramadhan
+            </h1>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <a
+                href="https://www.linkedin.com/in/muhammad-andi-akbar-ramadhan-034941220/"
+                class="btn btn-light btn-lg px-4 me-md-2"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="./imgsvg/LinkedIn_icon.svg.png"
+                  alt="LinkedIn logo"
+                  height="16px"
+                  width="16px"
+                  style="margin-bottom: 5px; margin-right: 5px"
+                />
+                LinkedIn
+              </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
 
-<div style="text-align: center;">
-<img src="yesme.jpeg" width="400" height="600"></div>
+    <!-- Features -->
+    <section id="features">
+      <div class="container mt-5">
+        <div
+          class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5"
+        >
+          <div class="col d-flex flex-column align-items-start gap-2">
+            <h2 class="fw-bold text-body-emphasis">
+              Skills and Tech Stacks
+            </h2>
+            <p class="text-body-secondary">
+              Some of the skills I've learnt with the tech stacks related to them.
+            </p>
+            <!-- <a href="#" class="btn btn-primary btn-lg">Primary button</a> -->
+          </div>
 
-<h1 style="text-align: center;">
-    Profile
-</h1>
+          <div class="col">
+            <div class="row row-cols-1 row-cols-sm-2 g-4">
+              <div class="col d-flex flex-column gap-2">
+                <div
+                  class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-5 rounded-3"
+                  style="width: 50px; height: 50px"
+                >
+                  <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                  <svg
+                    version="1.1"
+                    id="Layer_1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 0 512 512"
+                    xml:space="preserve"
+                    style="width: 50px; height: 50px"
+                  >
+                    <circle style="fill: #f2cf61" cx="256" cy="256" r="256" />
+                    <path
+                      style="fill: #b3b3b3"
+                      d="M0,404h512v12l0,0c0,6.6-5.4,12-12,12H12c-6.596,0-12-5.4-12-12l0,0V404z"
+                    />
+                    <polygon
+                      style="fill: #e6e6e6"
+                      points="432,332 80,332 0,404 512,404 "
+                    />
+                    <polygon
+                      style="fill: #f5f5f5"
+                      points="41.696,388 86.14,348 425.86,348 470.304,388 "
+                    />
+                    <path
+                      style="fill: #e6e6e6"
+                      d="M288,404c0,4.416-3.584,8-8,8h-56c-4.416,0-8-3.584-8-8H288z"
+                    />
+                    <path
+                      style="fill: #263740"
+                      d="M80,332V116c0-6.6,5.404-12,12-12h328c6.6,0,12,5.4,12,12v216H80z"
+                    />
+                    <rect
+                      x="104"
+                      y="128"
+                      style="fill: #406a80"
+                      width="304"
+                      height="184"
+                    />
+                    <circle style="fill: #70ccbd" cx="412" cy="340" r="4" />
+                    <circle style="fill: #cc584c" cx="256" cy="116" r="4" />
+                    <path
+                      style="fill: #263740"
+                      d="M460,420h-40c-2.208,0-4-1.788-4-4s1.792-4,4-4h40c2.212,0,4,1.788,4,4S462.212,420,460,420z"
+                    />
+                  </svg>
+                </div>
 
-<h3 style="text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: large;">
-    <div>Hi, name's Muhammad Andi Akbar Ramadhan, and you can call me Andi.</div>
-    <div>I'm currently a student at ITS's Informatics.</div>
-    <div>I like making games (using Unity and C#), and I'll be trying other game dev-ing applications.</div>
-</h3>
+                <h4 class="fw-semibold mb-0 text-body-emphasis">
+                  Web Developing
+                </h4>
+                <p class="text-body-secondary">
+                  Experienced in developing front-ends for websites using tools such as HTML, CSS, Vue.js, and others.
+                </p>
+              </div>
 
+              <div class="col d-flex flex-column gap-2">
+                <div
+                  class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-5 rounded-3"
+                  style="width: 50px; height: 50px"
+                >
+                  <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                  <svg fill="#000000" width="800px" height="800px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M26.531 25.599l-5.728-9.599 5.728-9.599 2.803 9.599zM13.864 24.667l-7.197-7.068h11.469l5.728 9.599zM13.864 7.197l10-2.531-5.728 9.599h-11.605c0 0.136 7.333-7.068 7.333-7.068zM28.531 0l-13.061 3.333-2 3.333h-3.871l-9.599 9.333 9.599 9.333h3.871l1.864 3.333 13.068 3.333 3.463-12.667-1.864-3.333 2-3.333z"/>
+                  </svg>
+                </div>
+                <h4 class="fw-semibold mb-0 text-body-emphasis">
+                  Game Development
+                </h4>
+                <p class="text-body-secondary">
+                  Experienced in making games using Unity (C#) and RPGMaker (Javascript).
+                </p>
+              </div>
 
-<h1 style="text-align: center;">
-    Education History
-</h1>
+              <!-- <div class="col d-flex flex-column gap-2">
+                <div
+                  class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3"
+                >
+                  <svg class="bi" width="1em" height="1em">
+                    <use xlink:href="#speedometer"></use>
+                  </svg>
+                </div>
+                <h4 class="fw-semibold mb-0 text-body-emphasis">
+                  Fluent in English
+                </h4>
+                <p class="text-body-secondary">
+                  Paragraph of text beneath the heading to explain the heading.
+                </p>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<h3 style="text-align: center;">
-    <li style="font-family: Arial, Helvetica, sans-serif;">2020 - Present : Institut Teknologi Sepuluh Nopember</li>
-    <div>᲼᲼᲼᲼᲼᲼</div>
-    <li style="font-family: Arial, Helvetica, sans-serif;">2018 - 2020 : SMA Yayasan Pupuk Kaltim</li>
-</h3>
-
-<div>᲼᲼᲼᲼᲼᲼</div>
-<div>᲼᲼᲼᲼᲼᲼</div>
-<div>᲼᲼᲼᲼᲼᲼</div>
-
-<div style="font-size: x-large; font-family: Arial, Helvetica, sans-serif; text-align: center;">anyways, have a great night</div>
-
-<div>᲼᲼᲼᲼᲼᲼</div>
-<div>᲼᲼᲼᲼᲼᲼</div>
-<div>᲼᲼᲼᲼᲼᲼</div>
-
-<footer>
-    <p>sh / DD, 2022</p>
-    <p>nice</p>
-</footer>
-
-</body>
-
+    <!-- Footer -->
+    <!-- <section id="contact" class="gradient-background">
+      <div class="container"></div>
+    </section> -->
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top mx-5">
+      <div class="col-md-4 d-flex align-items-center">
+        <!-- <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+          <img src="bootstrap-logo.png" alt="Bootstrap Logo" width="30" height="24">
+        </a> -->
+        <span class="mb-3 mb-md-0 text-body-secondary">© 2025 DD</span>
+      </div>
+    
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3">
+          <a class="text-body-secondary" href="https://linkedin.com/in/muhammad-andi-akbar-ramadhan-034941220/" target="_blank" 
+          rel="noopener noreferrer">
+            <img src="./imgsvg/LinkedIn_icon.svg.png" alt="LinkedIn Logo" width="24" height="24">
+          </a>
+        </li>
+        <li class="ms-3">
+          <a class="text-body-secondary" href="https://github.com/andimaar-264" target="_blank" 
+          rel="noopener noreferrer">
+            <img src="./imgsvg/github-mark.png" alt="GitHub Logo" width="24" height="24">
+          </a>
+        </li>
+        <!-- Additional icons can go here -->
+      </ul>
+    </footer>
+    
+  </body>
 </html>
